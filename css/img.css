@@ -1,0 +1,21 @@
+.img_desk {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img_res {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 479px) {
+  .img_desk {
+    display: none;
+  }
+  .img_res {
+    display: block;
+  }
+}
